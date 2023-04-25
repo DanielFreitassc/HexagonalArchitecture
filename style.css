@@ -3,5 +3,18 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color: rgb(149, 235, 157);
+}
+
+main{
+    background-color:white;
+    margin: auto;
+    width: 700px;
+}
+hr{
+    color: black;
+}
+
+.logo{
+  
 }
