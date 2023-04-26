@@ -1,9 +1,7 @@
-@font-face {
-    font-family:"lcd";
-    src: url(/site-do-propeller-clock/Midias/digital-7.ttf);
-}
+@import url(https://github.com/DanielFreitassc/site-do-propeller-clock/blob/main/Midias/digital-7.ttf);
+
 *{
-    font-family:"lcd",sans-serif;
+    font-family:"digital-7",sans-serif;
 }
 
 body{
@@ -30,7 +28,6 @@ hr{
 }
 
 h1{
-    font-family:"lcd",sans-serif;
     text-align: center;
     margin: 0px;
 }
@@ -39,5 +36,5 @@ li:hover{
     cursor: pointer;
 }
 li{
-    font-size: 20px;
+    font-size: 25px;
 }
