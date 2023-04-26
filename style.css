@@ -1,5 +1,9 @@
+@font-face {
+    font-family:"lcd";
+    src: url(/site-do-propeller-clock/Midias/digital-7.ttf);
+}
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"lcd",sans-serif;
 }
 
 body{
@@ -26,10 +30,14 @@ hr{
 }
 
 h1{
+    font-family:"lcd",sans-serif;
     text-align: center;
     margin: 0px;
 }
 li:hover{
     color: red;
     cursor: pointer;
+}
+li{
+    font-size: 20px;
 }
