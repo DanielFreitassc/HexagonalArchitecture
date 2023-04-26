@@ -4,6 +4,7 @@
 
 body{
     background-color: rgb(149, 235, 157);
+    background-image: url("midias/yy.jpg");
 }
 
 main{
@@ -15,6 +16,10 @@ hr{
     color: black;
 }
 
-.logo{
-  
+h1{
+    text-align: center;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
 }
