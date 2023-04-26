@@ -36,5 +36,15 @@ li:hover{
     cursor: pointer;
 }
 li{
-    font-size: 25px;
+    font-size: 30px;
+}
+#componente{
+    font-size: 40px;
+}
+#divi{
+    font-size: 50px;
+}
+
+#voltar{
+    font-size: 20px;
 }
