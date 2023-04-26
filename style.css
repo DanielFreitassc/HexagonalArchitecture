@@ -5,19 +5,29 @@
 body{
     background-color: rgb(149, 235, 157);
     background-image: url("midias/yy.jpg");
+    margin: 0%;
+}
+
+header{
+    margin: 0px;
+    padding: 3px;
+    background-color: rgb(69, 144, 69);
 }
 
 main{
     background-color:white;
-    margin: auto;
+    margin: 0px auto;
     width: 700px;
+    
 }
+
 hr{
-    color: black;
+    margin: 0px;
 }
 
 h1{
     text-align: center;
+    margin: 0px;
 }
 li:hover{
     color: red;
