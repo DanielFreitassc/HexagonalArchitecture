@@ -1,25 +1,27 @@
 @import url(https://github.com/DanielFreitassc/site-do-propeller-clock/blob/main/Midias/digital-7.ttf);
 
 *{
-    font-family:"digital-7",sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    
 }
 
 body{
-    background-color: rgb(149, 235, 157);
     background-image: url("midias/yy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0%;
 }
 
 header{
     margin: 0px;
     padding: 3px;
-    background-color: rgb(69, 144, 69);
+    
 }
 
 main{
     background-color:white;
     margin: 0px auto;
-    width: 700px;
+    width: 600px;
     
 }
 
@@ -32,7 +34,7 @@ h1{
     margin: 0px;
 }
 li:hover{
-    color: red;
+    color: rgb(43, 255, 0);
     cursor: pointer;
 }
 li{
