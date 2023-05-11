@@ -1,17 +1,46 @@
-@import url(https://github.com/DanielFreitassc/site-do-propeller-clock/blob/main/Midias/digital-7.ttf);
+*
+.box2{
+    color:rgb(80, 121, 72);
+    text-decoration: none;
+    line-height:5;
+}
 
-*{
+.logosatc{
+    margin-bottom: 30px;
+} 
+
+.prop{
+    font-size:35pt;
     font-family: 'Share Tech Mono', monospace;
+    color: rgb(80, 121, 72);
+    text-align: center;
+    margin: 0px;
+}
+
+.box1{
+    color:rgb(80, 121, 72);
+    text-decoration: none;
     
 }
 
-body{
+.tit3{
+    color:rgb(80, 121, 72);
+}
+
+.firstbody{
     background-image: url("midias/yy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0%;
+    margin: 5%;
 }
 
+.secondbody{
+    background-image: url("midias/yy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7%;
+}
+ 
 header{
     margin: 0px;
     padding: 3px;
@@ -32,23 +61,112 @@ hr{
 }
 
 h1{
+    font-size:60pt;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(80, 121, 72);
     text-align: center;
     margin: 0px;
+    
+    
 }
+
 li:hover{
     color: rgb(43, 255, 0);
     cursor: pointer;
 }
+
 li{
     font-size: 30px;
 }
+
 #componente{
     font-size: 40px;
 }
+
 #divi{
     font-size: 50px;
 }
 
 #voltar{
     font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}    
+
+.imagem-pequena{
+    width: 200px;
+  height: auto;
+  margin-bottom:20px;
+  margin-right: 700px;
+}
+ 
+.imagem-media{
+    width: 600px;
+    height: auto;
+    margin-bottom:20px;
+    margin-right: 0;
+}
+
+
+.arduinov3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    text-align: center;
+}
+
+.arduinov3 h1 {
+    font-size: 60pt;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(80, 121, 72);
+    margin: 0;
+}
+
+.alt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; /* Define a altura do contêiner para ocupar toda a altura da janela */
+}
+  
+.spec-container {
+    color: rgb(80, 121, 72);
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0;
+    position: absolute; /* Define a posição absoluta para o elemento */
+    top: 120%; /* Define a posição vertical como 50% */
+    left: 60%; /* Define a posição horizontal como 50% */
+    transform: translate(-50%, -50%); /* Centraliza o elemento usando transformação */
+    font-size: 30px;
+    padding:10;
+}
+
+.list{
+    margin-bottom: 25px; /* Espaçamento entre os itens da lista */
+    border-bottom: 1px solid black; /* Cor e espessura da barra */
+}
+
+.propellerclock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.propellerclock h1{
+    font-size: 60pt;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(80, 121, 72);
+    margin: 0;
 }
