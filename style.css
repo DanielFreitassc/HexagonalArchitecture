@@ -70,7 +70,7 @@ h1{
     
 }
 
-li:hover{
+.box1:hover{
     color: rgb(43, 255, 0);
     cursor: pointer;
 }
