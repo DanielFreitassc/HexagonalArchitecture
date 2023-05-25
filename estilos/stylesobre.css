@@ -1,5 +1,45 @@
-h1{ 
-    font-size: 800px;
-    text-align: left;
+#tipodetrabalhoalinhado{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: center ;
+    justify-content: left;
     tex
+}
+#tipodetrabalho{
+    font-size: 25px;
+}
+#listasobre{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: center ;
+    justify-content: left;
+    align-items: center;
+    
+}
+#sobreback{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(4, 87, 143) 0%, rgb(17, 139, 163) 35%, rgb(2, 122, 146) 100%);
+}
+#sobre{
+    font-size: 40px;
+    text-align: left;
+      
+}
+#trabalhos{
+    font-size: 25px;
+}
+#rodape{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    word-spacing: 20px;
+    
 }
