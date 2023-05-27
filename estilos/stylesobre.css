@@ -1,22 +1,24 @@
 #listasobre{
     text-align: center;
     text-align: left;
-    font-size: 25px;
-    
-    
+    font-size: 25px;   
 }
-#sobreback{
+
+#sobrebackground{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgb(4, 87, 143) 0%, rgb(17, 139, 163) 35%, rgb(2, 122, 146) 100%);
 }
-#sobre{
+
+#sobrenos{
     font-size: 40px;
     text-align: left;
-      
+    line-height: 200px;     
 }
+
 #trabalhos{
     font-size: 25px;
 }
+
 #rodape{
     position: fixed;
     left: 0;
@@ -29,18 +31,24 @@
     padding-left: 10px;
     word-spacing: 20px;   
 }
+
 #logozetta{
     width: 300px;
-    height: 281px;  
+    height: 281px;
+    margin: 10px;  
 }
-#alinhamentologo{
-    border: 50px;
-    position: absolute;
+
+#alinhamentologo {
     position: fixed;
     width: 99%;
-    height: 92%;
     text-align: right;
-    margin: auto;
-    display: block;
-   
+    display: inline-block;
+    box-sizing: border-box;
+    border: none; 
+    padding: 10px;
+    right: 0; 
+}  
+
+#botaovoltar{
+    line-height: 200px;
 }
