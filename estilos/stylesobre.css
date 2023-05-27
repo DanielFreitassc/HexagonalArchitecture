@@ -1,21 +1,8 @@
-#tipodetrabalhoalinhado{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: center ;
-    justify-content: left;
-    tex
-}
-#tipodetrabalho{
-    font-size: 25px;
-}
 #listasobre{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: center ;
-    justify-content: left;
-    align-items: center;
+    text-align: center;
+    text-align: left;
+    font-size: 25px;
+    
     
 }
 #sobreback{
@@ -35,11 +22,25 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: rgb(124, 124, 124);
     color: white;
     text-align: center;
     letter-spacing: 2px;
     padding-left: 10px;
-    word-spacing: 20px;
-    
+    word-spacing: 20px;   
+}
+#logozetta{
+    width: 300px;
+    height: 281px;  
+}
+#alinhamentologo{
+    border: 50px;
+    position: absolute;
+    position: fixed;
+    width: 99%;
+    height: 92%;
+    text-align: right;
+    margin: auto;
+    display: block;
+   
 }
