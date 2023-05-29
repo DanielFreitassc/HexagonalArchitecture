@@ -1,3 +1,3 @@
 # Zettabyte
-## Aqui demonstraremos criaremos um site para uma marca inventada
+## Site feito em cima de uma marca fictícia
 > Desenvolvedores: Daniel/Luiz
